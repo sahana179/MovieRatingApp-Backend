@@ -1,0 +1,81 @@
+"C:\Users\Sahana Sreedhar\.jdks\temurin-11.0.14.1\bin\java.exe" "-Dmaven.multiModuleProjectDirectory=C:\Users\Sahana Sreedhar\OneDrive\Documents\EPITA\MovieRatingApp-20220808T073737Z-001\MovieRatingApp\Advanced Web and Javascript And API Management project\javaapi\movie_sourcecode\movie" "-Dmaven.home=C:\Users\Sahana Sreedhar\.m2\wrapper\dists\apache-maven-3.6.3-bin\1iopthnavndlasol9gbrbg6bf2\apache-maven-3.6.3" "-Dclassworlds.conf=C:\Users\Sahana Sreedhar\.m2\wrapper\dists\apache-maven-3.6.3-bin\1iopthnavndlasol9gbrbg6bf2\apache-maven-3.6.3\bin\m2.conf" "-Dmaven.ext.class.path=C:\Program Files\JetBrains\IntelliJ IDEA 2021.3.2\plugins\maven\lib\maven-event-listener.jar" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2021.3.2\lib\idea_rt.jar=55656:C:\Program Files\JetBrains\IntelliJ IDEA 2021.3.2\bin" -Dfile.encoding=UTF-8 -classpath "C:\Users\Sahana Sreedhar\.m2\wrapper\dists\apache-maven-3.6.3-bin\1iopthnavndlasol9gbrbg6bf2\apache-maven-3.6.3\boot\plexus-classworlds-2.6.0.jar;C:\Users\Sahana Sreedhar\.m2\wrapper\dists\apache-maven-3.6.3-bin\1iopthnavndlasol9gbrbg6bf2\apache-maven-3.6.3\boot\plexus-classworlds.license" org.codehaus.classworlds.Launcher -Didea.version=2021.3.2 install
+[INFO] Scanning for projects...
+[INFO]
+[INFO] -------------------------< com.bezkoder:movie >-------------------------
+[INFO] Building movie 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO]
+[INFO] --- maven-resources-plugin:3.2.0:resources (default-resources) @ movie ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 1 resource
+[INFO] Copying 0 resource
+[INFO]
+[INFO] --- maven-compiler-plugin:3.10.1:compile (default-compile) @ movie ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 22 source files to C:\Users\Sahana Sreedhar\OneDrive\Documents\EPITA\MovieRatingApp-20220808T073737Z-001\MovieRatingApp\Advanced Web and Javascript And API Management project\javaapi\movie_sourcecode\movie\target\classes
+[INFO]
+[INFO] --- maven-resources-plugin:3.2.0:testResources (default-testResources) @ movie ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] skip non existing resourceDirectory C:\Users\Sahana Sreedhar\OneDrive\Documents\EPITA\MovieRatingApp-20220808T073737Z-001\MovieRatingApp\Advanced Web and Javascript And API Management project\javaapi\movie_sourcecode\movie\src\test\resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.10.1:testCompile (default-testCompile) @ movie ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to C:\Users\Sahana Sreedhar\OneDrive\Documents\EPITA\MovieRatingApp-20220808T073737Z-001\MovieRatingApp\Advanced Web and Javascript And API Management project\javaapi\movie_sourcecode\movie\target\test-classes
+[INFO]
+[INFO] --- maven-surefire-plugin:2.22.2:test (default-test) @ movie ---
+[INFO]
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.bezkoder.spring.jpa.postgresql.SpringBootJpaPostgresqlApplicationTests
+10:23:05.219 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+10:23:05.235 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+10:23:05.271 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.bezkoder.spring.jpa.postgresql.SpringBootJpaPostgresqlApplicationTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+10:23:05.286 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.bezkoder.spring.jpa.postgresql.SpringBootJpaPostgresqlApplicationTests], using SpringBootContextLoader
+10:23:05.302 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.bezkoder.spring.jpa.postgresql.SpringBootJpaPostgresqlApplicationTests]: class path resource [com/bezkoder/spring/jpa/postgresql/SpringBootJpaPostgresqlApplicationTests-context.xml] does not exist
+10:23:05.302 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.bezkoder.spring.jpa.postgresql.SpringBootJpaPostgresqlApplicationTests]: class path resource [com/bezkoder/spring/jpa/postgresql/SpringBootJpaPostgresqlApplicationTestsContext.groovy] does not exist
+10:23:05.302 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.bezkoder.spring.jpa.postgresql.SpringBootJpaPostgresqlApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+10:23:05.365 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.bezkoder.spring.jpa.postgresql.SpringBootJpaPostgresqlApplicationTests]
+10:23:05.494 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.bezkoder.spring.jpa.postgresql.SpringBootJpaPostgresqlApplicationTests]: using defaults.
+10:23:05.494 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+10:23:05.525 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@22ffa91a, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@74960bfa, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@42721fe, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@40844aab, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@1f6c9cd8, org.springframework.test.context.support.DirtiesContextTestExecutionListener@5b619d14, org.springframework.test.context.transaction.TransactionalTestExecutionListener@66746f57, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@447a020, org.springframework.test.context.event.EventPublishingTestExecutionListener@7f36662c, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@28e8dde3, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@6d23017e, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@54dcfa5a, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@1817f1eb, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@767e20cf, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@3a3e78f]
+10:23:05.529 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@1d730606 testClass = SpringBootJpaPostgresqlApplicationTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@3bcbb589 testClass = SpringBootJpaPostgresqlApplicationTests, locations = '{}', classes = '{class com.bezkoder.spring.conf.Applicationconfig}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@24c22fe, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@15a04efb, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@560348e6, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@3fa247d1, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@4bd31064, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@5e82df6a], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true]], class annotated with @DirtiesContext [false] with mode [null].
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.7.1)
+
+2022-08-08 10:23:05.996  INFO 23992 --- [           main] .SpringBootJpaPostgresqlApplicationTests : Starting SpringBootJpaPostgresqlApplicationTests using Java 11.0.14.1 on LAPTOP-DTJ1G2V9 with PID 23992 (started by Sahana Sreedhar in C:\Users\Sahana Sreedhar\OneDrive\Documents\EPITA\MovieRatingApp-20220808T073737Z-001\MovieRatingApp\Advanced Web and Javascript And API Management project\javaapi\movie_sourcecode\movie)
+2022-08-08 10:23:05.996  INFO 23992 --- [           main] .SpringBootJpaPostgresqlApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2022-08-08 10:23:06.373  INFO 23992 --- [           main] .SpringBootJpaPostgresqlApplicationTests : Started SpringBootJpaPostgresqlApplicationTests in 0.806 seconds (JVM running for 1.918)
+Test SpringBoot
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.828 s - in com.bezkoder.spring.jpa.postgresql.SpringBootJpaPostgresqlApplicationTests
+[INFO]
+[INFO] Results:
+[INFO]
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+[INFO]
+[INFO]
+[INFO] --- maven-jar-plugin:3.2.2:jar (default-jar) @ movie ---
+[INFO] Building jar: C:\Users\Sahana Sreedhar\OneDrive\Documents\EPITA\MovieRatingApp-20220808T073737Z-001\MovieRatingApp\Advanced Web and Javascript And API Management project\javaapi\movie_sourcecode\movie\target\movie-0.0.1-SNAPSHOT.jar
+[INFO]
+[INFO] --- spring-boot-maven-plugin:2.7.1:repackage (repackage) @ movie ---
+[INFO] Replacing main artifact with repackaged archive
+[INFO]
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ movie ---
+[INFO] Installing C:\Users\Sahana Sreedhar\OneDrive\Documents\EPITA\MovieRatingApp-20220808T073737Z-001\MovieRatingApp\Advanced Web and Javascript And API Management project\javaapi\movie_sourcecode\movie\target\movie-0.0.1-SNAPSHOT.jar to C:\Users\Sahana Sreedhar\.m2\repository\com\bezkoder\movie\0.0.1-SNAPSHOT\movie-0.0.1-SNAPSHOT.jar
+[INFO] Installing C:\Users\Sahana Sreedhar\OneDrive\Documents\EPITA\MovieRatingApp-20220808T073737Z-001\MovieRatingApp\Advanced Web and Javascript And API Management project\javaapi\movie_sourcecode\movie\pom.xml to C:\Users\Sahana Sreedhar\.m2\repository\com\bezkoder\movie\0.0.1-SNAPSHOT\movie-0.0.1-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  9.217 s
+[INFO] Finished at: 2022-08-08T10:23:09+02:00
+[INFO] ------------------------------------------------------------------------
+
+Process finished with exit code 0
